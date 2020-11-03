@@ -1,1 +1,3 @@
-# handwritten-digit-Recognition
+# handwritten-digit-recognition
+
+The objective of this paper was to survey different learning algorithms to correctly classify handwritten digits. The various approaches surveyed are measured in terms of accuracy and efficiency against multiple datasets of handwritten digit images. This survey utilized both the MNIST Dataset and the Semeion Handwritten Digit Dataset in training and testing to document more robust results. This article surveyed various practical classification methods, such as K-Nearest Neighbors (K-NN) and Support Vector Machines (SVM), as well as more advanced computer vision techniques, such as Convolutional Neural Networks (CNN) and Extreme Learning Machines (ELM). Test data results demonstrated the efficacy of deep neural networks such as CNNs. However, ELMs provided a faster alternative to CNNs with better generalization performance.
