@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import seaborn as sns
-import data
+import data_mnist
 
 np.random.seed(2)
 
@@ -21,6 +21,6 @@ from keras.callbacks import ReduceLROnPlateau, EarlyStopping
 
 sns.set(style='white', context='notebook', palette='deep')
 
-X_train, X_val, Y_train, Y_val, test = data.data_preprocessing()
-
-print(X_train)
+def model()
+    X_train, X_val, Y_train, Y_val, test = data_mnist.data_preprocessing()
+    
