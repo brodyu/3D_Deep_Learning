@@ -29,3 +29,12 @@
 </p>
 
 The 3D MNIST dataset is a 3-dimensional version of the original MNIST digit dataset. The dataset was created by generating 3D point clouds from the original 2D images in MNIST. Point clouds are a set of points that represents a 3D object with the set of X, Y, and Z coordinates. The 3D MNIST dataset contains 10,000 training objects and 2000 testing objects formatted in H5 file format. 
+
+In order to pull the training and testing data into Python from the H5 file format we must run:
+```python
+  with h5py.File("./full_dataset_vectors.h5", "r") as dataset:
+    x_train = dataset["X_train"][:]
+    y_train = dataset["y_train"][:]
+    x_test = dataset["X_test"][:] 
+    y_test = dataset["y_test"][:]
+```
