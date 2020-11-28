@@ -23,3 +23,7 @@
   While the MNIST dataset is traditionally used to in academia to benchmark new learning algorithms, it is gaining popularity among computer vision beginners and practitioners to learn different deep learning techniques on a clean pre-processed dataset. 
   
 ### 3D MNIST
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/countplt.jpg">
+</p>
