@@ -8,7 +8,9 @@
 ### MNIST
   The Modified National Institute of Standards and Technology (MNIST) database is a large database of handwritten digit images. MNIST contains 60,000 training images and 10,000 testing images.
   
-![alt text](https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/countplt.jpg)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/countplt.jpg">
+</p>
   
   MNIST was created by combining 30,000 images from NIST’s Special Database 3 (SD-3) and 30,000 images from Special Database 1 (SD-1). SD-3 images were collected among Census Bureau employees and SD-1 images were collected among American high-school students. The original NIST images were preprocessed through size-normalization and centered in a 28x28 image. Human performance of digit recognition upon the MNIST dataset hovers around a 2-2.5% test error rate. 
   
