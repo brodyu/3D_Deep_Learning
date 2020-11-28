@@ -6,6 +6,10 @@
 ## Datasets 
 
 ### MNIST
+<p align="center">
+  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/training_set_images.jpg">
+</p>
+
   The Modified National Institute of Standards and Technology (MNIST) database is a large database of handwritten digit images. MNIST contains 60,000 training images and 10,000 testing images.
   
 <p align="center">
