@@ -28,4 +28,4 @@
   <img width="600" height="500" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/3d_image.png">
 </p>
 
-The 3D MNIST dataset is a 3-dimensional version of the original MNIST digit dataset. 3D MNIST was created by generating 3D point clouds from the original 2D images in MNIST. Point clouds are a set of points that represents a 3D object with the set of X, Y, and Z coordinates.
+The 3D MNIST dataset is a 3-dimensional version of the original MNIST digit dataset. The dataset was created by generating 3D point clouds from the original 2D images in MNIST. Point clouds are a set of points that represents a 3D object with the set of X, Y, and Z coordinates. The 3D MNIST dataset contains 10,000 training objects and 2000 testing objects formatted in H5 file format. 
