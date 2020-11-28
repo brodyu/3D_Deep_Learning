@@ -25,5 +25,5 @@
 ### 3D MNIST
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/countplt.jpg">
+  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/3d_image.png">
 </p>
