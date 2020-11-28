@@ -25,5 +25,5 @@
 ### 3D MNIST
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/3d_image.png">
+  <img width="600" height="500" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/3d_image.png">
 </p>
