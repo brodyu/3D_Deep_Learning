@@ -5,9 +5,9 @@
 
 ## Datasets 
 
-### MNIST
+### MNIST (2D Images)
 <p align="center">
-  <img width="460" height="300" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/training_set_images.jpg">
+  <img width="432" height="288" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/training_set_images.jpg">
 </p>
 
   The Modified National Institute of Standards and Technology (MNIST) database is a large database of handwritten digit images. MNIST contains 60,000 training images and 10,000 testing images.
@@ -27,3 +27,5 @@
 <p align="center">
   <img width="600" height="500" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/3d_image.png">
 </p>
+
+The 3D MNIST dataset is a 3-dimensional version of the original MNIST digit dataset. 3D MNIST was created by generating 3D point clouds from the original 2D images in MNIST. 
