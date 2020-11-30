@@ -38,3 +38,12 @@ In order to pull the training and testing data into Python from the H5 file form
     x_test = dataset["X_test"][:] 
     y_test = dataset["y_test"][:]
 ```
+
+#### Pre Processing
+
+To preprocess our data for training we must first reshape the data into a 3D format with the dimensions (16, 16, 16, 3). Next we convert our target variables to categorical targets ulizing Tensorflow's to_categorical method:
+
+```python
+  y_train = to_categorical(y_train, 10).astype(np.int32)
+  y_test = to_categorical(y_test, 10).astype(np.int32)
+```
