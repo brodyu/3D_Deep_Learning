@@ -39,7 +39,7 @@ In order to pull the training and testing data into Python from the H5 file form
     y_test = dataset["y_test"][:]
 ```
 
-#### Pre Processing
+#### Pre-Processing
 
 To preprocess our data for training we must first reshape the data into a 3D format with the dimensions (16, 16, 16, 3). Next we convert our target variables to categorical targets ulizing Tensorflow's to_categorical method:
 
@@ -47,3 +47,7 @@ To preprocess our data for training we must first reshape the data into a 3D for
   y_train = to_categorical(y_train, 10).astype(np.int32)
   y_test = to_categorical(y_test, 10).astype(np.int32)
 ```
+
+#### Model Archiecture
+
+To build our 3D convolutional neural network we will utilize the Keras sequential API. Our CNN consists of 32 filters for the first two layers and 64 filters for the following two layers. Each filter transforms part of our 3D image using 3D kernel filters. We also use multiple MaxPooling layers that act as downsampling filters. These filters reduce the computational cost and reduce overfitting. Utilizing the pydot function from Keras, we can visualize our network architecture. 
