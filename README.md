@@ -53,5 +53,5 @@ To preprocess our data for training we must first reshape the data into a 3D for
 To build our 3D convolutional neural network we will utilize the Keras sequential API. Our CNN consists of 32 filters for the first two layers and 64 filters for the following two layers. Each filter transforms part of our 3D image using 3D kernel filters. We also use multiple MaxPooling layers that act as downsampling filters. These filters reduce the computational cost and reduce overfitting. Utilizing the pydot function from Keras, we can visualize our network architecture. 
 
 <p align="center">
-  <img width="600" height="500" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/model_plot.jpg">
+  <img width="551" height="1401" src="https://github.com/brodyu/handwritten-digit-recognition/blob/main/graphics/model_plot.jpg">
 </p>
